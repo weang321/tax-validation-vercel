@@ -1,0 +1,59 @@
+# Default: ignore everything
+*
+
+# Allow listed files/folders
+!README.md
+!.gitignore
+!package.json
+!package-lock.json
+!tsconfig.json
+!tsconfig.node.json
+!vite.config.ts
+!tailwind.config.js
+!postcss.config.js
+!index.html
+!vercel.json
+!requirements.txt
+!.gitkeep
+
+# Allow directories
+!src/
+!api/
+!public/
+!scripts/
+!tests/
+!reports/
+!reports/.gitkeep
+!errors/
+!errors/.gitkeep
+
+# Dependencies
+node_modules/
+.pnp
+.pnp.js
+
+# Build output
+dist/
+build/
+
+# Python compiled
+__pycache__/
+*.pyc
+*.pyo
+
+# Test coverage
+coverage/
+
+# Environment
+.env
+.env.local
+
+# Editor
+.vscode/*
+!.vscode/extensions.json
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
